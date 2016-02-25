@@ -52,12 +52,12 @@ form.nostyle {
 		clear:none;
 	}
 	label {
-	  &.left {
-	    float: left;
-	    display: block;
-	    width: $grid-x * 22;
-	    padding: $grid-y $grid-x $grid-y 0;
-	    line-height: $grid-y * 2;
+		&.left {
+			float: left;
+			display: block;
+			width: $grid-x * 22;
+			padding: $grid-y $grid-x $grid-y 0;
+			line-height: $grid-y * 2;
 		}
 		&.right {
 			cursor: pointer;
@@ -662,7 +662,7 @@ form.small .field, .field.small {
 	}
 
 	.ss-ui-buttonset {
-		margin-left: 1px;
+		margin: 0 $grid-x 0 0;
 	}
 
 	.ss-ui-loading-icon {
